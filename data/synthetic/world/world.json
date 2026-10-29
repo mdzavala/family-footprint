@@ -1,0 +1,446 @@
+{
+  "places": [
+    {
+      "id": "PL-HOME-1",
+      "name": "Haddad residence (synthetic)",
+      "kind": "home",
+      "lat": 25.6012,
+      "lon": 54.6031
+    },
+    {
+      "id": "PL-SCHOOL-1",
+      "name": "Greenfield Crescent School (fictional)",
+      "kind": "school",
+      "lat": 25.615,
+      "lon": 54.618
+    },
+    {
+      "id": "PL-CLUB-1",
+      "name": "Coral Bay Aquatics (fictional)",
+      "kind": "club",
+      "lat": 25.6221,
+      "lon": 54.5905
+    },
+    {
+      "id": "PL-OTHER-1",
+      "name": "Unrelated address (synthetic)",
+      "kind": "home",
+      "lat": 25.701,
+      "lon": 54.502
+    },
+    {
+      "id": "PL-HOME-2",
+      "name": "Mensah-Rao residence (synthetic)",
+      "kind": "home",
+      "lat": 25.5804,
+      "lon": 54.6552
+    },
+    {
+      "id": "PL-CLUB-2",
+      "name": "Dunegate Sports Park (fictional)",
+      "kind": "club",
+      "lat": 25.5701,
+      "lon": 54.6703
+    },
+    {
+      "id": "PL-WORK-2",
+      "name": "Gulf Startup Pod studio (fictional)",
+      "kind": "work",
+      "lat": 25.599,
+      "lon": 54.688
+    }
+  ],
+  "breaches": [
+    {
+      "id": "BR-101",
+      "breach": "QuickCart (fictional)",
+      "breach_date": "2023-05-14",
+      "identifier_type": "email",
+      "identifier": "layla.haddad@example.com",
+      "data_classes": [
+        "email",
+        "password",
+        "name"
+      ],
+      "password_exposed": true
+    },
+    {
+      "id": "BR-102",
+      "breach": "MetroFit (fictional)",
+      "breach_date": "2024-11-02",
+      "identifier_type": "phone",
+      "identifier": "+971500000102",
+      "data_classes": [
+        "phone",
+        "name",
+        "date_of_birth"
+      ],
+      "password_exposed": false
+    },
+    {
+      "id": "BR-103",
+      "breach": "QuickCart (fictional)",
+      "breach_date": "2023-05-14",
+      "identifier_type": "email",
+      "identifier": "samir.haddad@example.org",
+      "data_classes": [
+        "email",
+        "password",
+        "name"
+      ],
+      "password_exposed": true
+    },
+    {
+      "id": "BR-104",
+      "breach": "TravelNest (fictional)",
+      "breach_date": "2025-02-20",
+      "identifier_type": "email",
+      "identifier": "layla.haddad1988@example.com",
+      "data_classes": [
+        "email",
+        "password",
+        "name",
+        "address"
+      ],
+      "password_exposed": true
+    },
+    {
+      "id": "BR-201",
+      "breach": "QuickCart (fictional)",
+      "breach_date": "2023-05-14",
+      "identifier_type": "email",
+      "identifier": "priya.rao@example.com",
+      "data_classes": [
+        "email",
+        "password",
+        "name"
+      ],
+      "password_exposed": true
+    },
+    {
+      "id": "BR-202",
+      "breach": "DesignVault (fictional)",
+      "breach_date": "2025-07-30",
+      "identifier_type": "email",
+      "identifier": "priya.rao@example.com",
+      "data_classes": [
+        "email",
+        "password",
+        "username"
+      ],
+      "password_exposed": true
+    },
+    {
+      "id": "BR-203",
+      "breach": "MetroFit (fictional)",
+      "breach_date": "2024-11-02",
+      "identifier_type": "phone",
+      "identifier": "+971500000202",
+      "data_classes": [
+        "phone",
+        "name",
+        "date_of_birth"
+      ],
+      "password_exposed": false
+    },
+    {
+      "id": "BR-204",
+      "breach": "QuickCart (fictional)",
+      "breach_date": "2023-05-14",
+      "identifier_type": "email",
+      "identifier": "d.mensah@example.org",
+      "data_classes": [
+        "email",
+        "password",
+        "name"
+      ],
+      "password_exposed": true
+    }
+  ],
+  "profiles": [
+    {
+      "id": "PR-101",
+      "platform": "Lenscape",
+      "username": "laylah_life",
+      "display_name": "Layla H.",
+      "linked_email": "layla.haddad@example.com",
+      "visibility": "public",
+      "bio": "Mum of one. Brunch, books, beaches."
+    },
+    {
+      "id": "PR-102",
+      "platform": "ProLink",
+      "username": "layla-haddad-cfo",
+      "display_name": "Layla Haddad",
+      "linked_email": "layla.haddad@example.com",
+      "visibility": "public",
+      "bio": "Group CFO, Orbitline Logistics (fictional). Treasury, vendor payments, M&A."
+    },
+    {
+      "id": "PR-103",
+      "platform": "TubeCast",
+      "username": "layla_speaks",
+      "display_name": "Layla Haddad",
+      "linked_email": "layla.haddad@example.com",
+      "visibility": "public",
+      "bio": "Talks on finance leadership."
+    },
+    {
+      "id": "PR-104",
+      "platform": "Lenscape",
+      "username": "kharbour",
+      "display_name": "Karim",
+      "visibility": "public",
+      "bio": "Swim dad. Coffee. Weekends at the pool."
+    },
+    {
+      "id": "PR-105",
+      "platform": "NeighbourNet",
+      "username": "kharbour",
+      "display_name": "KH",
+      "visibility": "public",
+      "bio": "Anonymous resident account."
+    },
+    {
+      "id": "PR-201",
+      "platform": "Lenscape",
+      "username": "priyamakes",
+      "display_name": "Priya Makes",
+      "visibility": "public",
+      "bio": "Illustration & branding for small brands. Bookings via WhatsApp +971 50 000 0201"
+    },
+    {
+      "id": "PR-202",
+      "platform": "TubeCast",
+      "username": "gulfstartuppod",
+      "display_name": "Gulf Startup Pod",
+      "linked_email": "d.mensah@example.net",
+      "visibility": "public",
+      "bio": "Weekly founder conversations, hosted by Daniel."
+    },
+    {
+      "id": "PR-203",
+      "platform": "PlayHub",
+      "username": "k0fi_strikes",
+      "display_name": "k0fi",
+      "visibility": "public",
+      "bio": "Ranked grinder. Don't @ me."
+    },
+    {
+      "id": "PR-204",
+      "platform": "Chirp",
+      "username": "k0fi_strikes",
+      "display_name": "Kofi M | Desert Falcons U16",
+      "visibility": "public",
+      "bio": "Striker. Desert Falcons U16 (fictional club)."
+    },
+    {
+      "id": "PR-205",
+      "platform": "Lenscape",
+      "username": "layla.haddad.travels",
+      "display_name": "Layla Haddad",
+      "linked_email": "layla.haddad1988@example.com",
+      "visibility": "public",
+      "bio": "A different Layla Haddad. Travel blogger."
+    }
+  ],
+  "posts": [
+    {
+      "id": "PO-101",
+      "profile_id": "PR-101",
+      "posted_at": "2026-06-20T15:10:00+04:00",
+      "text": "So proud of Yasmin Haddad, Star Reader of Grade 4 at Greenfield Crescent School!",
+      "place_id": "PL-SCHOOL-1",
+      "media": "photo",
+      "photo_id": null
+    },
+    {
+      "id": "PO-102",
+      "profile_id": "PR-101",
+      "posted_at": "2026-08-16T11:30:00+04:00",
+      "text": "Sunday brunch at home. Best view in town.",
+      "place_id": null,
+      "media": "photo",
+      "photo_id": "PH-101"
+    },
+    {
+      "id": "PO-103",
+      "profile_id": "PR-101",
+      "posted_at": "2026-07-01T08:00:00+04:00",
+      "text": "Off to Lisbon with the family for two weeks! House sitter sorted, Karim's on dog duty from the 10th.",
+      "place_id": null,
+      "media": "text",
+      "photo_id": null
+    },
+    {
+      "id": "PO-104",
+      "profile_id": "PR-103",
+      "posted_at": "2026-04-12T19:00:00+04:00",
+      "text": "Full keynote: 'Treasury in a volatile year', Gulf Finance Forum (fictional). 25 minutes.",
+      "place_id": null,
+      "media": "video",
+      "has_voice": true,
+      "photo_id": null
+    },
+    {
+      "id": "PO-105",
+      "profile_id": "PR-104",
+      "posted_at": "2026-09-01T16:05:00+04:00",
+      "text": "Tuesday swim club with Yasmin at Coral Bay Aquatics.",
+      "place_id": "PL-CLUB-1",
+      "media": "photo",
+      "photo_id": null
+    },
+    {
+      "id": "PO-106",
+      "profile_id": "PR-104",
+      "posted_at": "2026-09-08T16:02:00+04:00",
+      "text": "Same time, same pool. She's getting fast!",
+      "place_id": "PL-CLUB-1",
+      "media": "photo",
+      "photo_id": null
+    },
+    {
+      "id": "PO-107",
+      "profile_id": "PR-104",
+      "posted_at": "2026-09-15T16:10:00+04:00",
+      "text": "Week 3 of swim club with Yasmin. Never missing a Tuesday.",
+      "place_id": "PL-CLUB-1",
+      "media": "photo",
+      "photo_id": null
+    },
+    {
+      "id": "PO-108",
+      "profile_id": "PR-105",
+      "posted_at": "2026-09-20T22:40:00+04:00",
+      "text": "Building management still hasn't fixed the gate code. Anyone can walk in after 10pm.",
+      "place_id": null,
+      "media": "text",
+      "photo_id": null
+    },
+    {
+      "id": "PO-109",
+      "profile_id": "PR-205",
+      "posted_at": "2026-08-01T10:00:00+04:00",
+      "text": "Home again after Bali!",
+      "place_id": null,
+      "media": "photo",
+      "photo_id": "PH-102"
+    },
+    {
+      "id": "PO-201",
+      "profile_id": "PR-202",
+      "posted_at": "2026-09-25T07:00:00+04:00",
+      "text": "Episode 48: raising a seed round in the Gulf. 52 minutes, full audio and video.",
+      "place_id": "PL-WORK-2",
+      "media": "video",
+      "has_voice": true,
+      "photo_id": null
+    },
+    {
+      "id": "PO-202",
+      "profile_id": "PR-204",
+      "posted_at": "2026-09-03T17:15:00+04:00",
+      "text": "Thursday training at Dunegate Sports Park. Coach says I start Saturday.",
+      "place_id": "PL-CLUB-2",
+      "media": "text",
+      "photo_id": null
+    },
+    {
+      "id": "PO-203",
+      "profile_id": "PR-204",
+      "posted_at": "2026-09-10T17:20:00+04:00",
+      "text": "Thursday sessions are brutal. Dunegate again.",
+      "place_id": "PL-CLUB-2",
+      "media": "photo",
+      "photo_id": null
+    },
+    {
+      "id": "PO-204",
+      "profile_id": "PR-204",
+      "posted_at": "2026-09-17T17:05:00+04:00",
+      "text": "Training done. Mum picks me up at 7 at the park gate.",
+      "place_id": "PL-CLUB-2",
+      "media": "text",
+      "photo_id": null
+    },
+    {
+      "id": "PO-205",
+      "profile_id": "PR-201",
+      "posted_at": "2026-09-12T12:00:00+04:00",
+      "text": "New logo set for a local bakery. DM or WhatsApp for bookings!",
+      "place_id": null,
+      "media": "photo",
+      "photo_id": null
+    }
+  ],
+  "photos": [
+    {
+      "id": "PH-101",
+      "post_id": "PO-102",
+      "exif": {
+        "gps_lat": 25.60135,
+        "gps_lon": 54.60298,
+        "taken_at": "2026-08-16T10:55:00+04:00",
+        "device": "Phone X12"
+      }
+    },
+    {
+      "id": "PH-102",
+      "post_id": "PO-109",
+      "exif": {
+        "gps_lat": 25.7011,
+        "gps_lon": 54.5019,
+        "taken_at": "2026-08-01T09:40:00+04:00",
+        "device": "Phone S9"
+      }
+    }
+  ],
+  "brokers": [
+    {
+      "id": "BK-101",
+      "site": "PeopleFinder Gulf (fictional)",
+      "name": "Karim Haddad",
+      "phone": "+971500000102",
+      "email": null,
+      "age_band": "40-49",
+      "address_place_id": null,
+      "relatives": [
+        "Layla Haddad",
+        "Samir Haddad"
+      ]
+    },
+    {
+      "id": "BK-102",
+      "site": "PeopleFinder Gulf (fictional)",
+      "name": "Layla Haddad",
+      "phone": "+971500009999",
+      "email": "layla.haddad1988@example.com",
+      "age_band": "30-39",
+      "address_place_id": "PL-OTHER-1",
+      "relatives": []
+    },
+    {
+      "id": "BK-201",
+      "site": "WhoLivesHere (fictional)",
+      "name": "Priya Rao",
+      "phone": null,
+      "email": "priya.rao@example.com",
+      "age_band": "30-39",
+      "address_place_id": "PL-HOME-2",
+      "relatives": [
+        "Daniel Mensah"
+      ]
+    },
+    {
+      "id": "BK-202",
+      "site": "WhoLivesHere (fictional)",
+      "name": "Priya Rao",
+      "phone": "+971500008888",
+      "email": null,
+      "age_band": "50-59",
+      "address_place_id": "PL-OTHER-1",
+      "relatives": []
+    }
+  ]
+}

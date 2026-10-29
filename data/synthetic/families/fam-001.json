@@ -1,0 +1,97 @@
+{
+  "family_id": "fam-001",
+  "label": "The Haddad family (synthetic)",
+  "members": [
+    {
+      "member_id": "fam-001-m1",
+      "role": "guardian",
+      "age_band": "40-49",
+      "names": {
+        "first": "Layla",
+        "last": "Haddad"
+      },
+      "consent": {
+        "status": "verified",
+        "method": "otp",
+        "verified_at": "2026-10-01T09:00:00+04:00"
+      },
+      "identifiers": [
+        {
+          "type": "email",
+          "value": "layla.haddad@example.com",
+          "verified": true
+        },
+        {
+          "type": "phone",
+          "value": "+971500000101",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "member_id": "fam-001-m2",
+      "role": "adult",
+      "age_band": "40-49",
+      "names": {
+        "first": "Karim",
+        "last": "Haddad"
+      },
+      "consent": {
+        "status": "verified",
+        "method": "otp",
+        "verified_at": "2026-10-01T09:05:00+04:00"
+      },
+      "identifiers": [
+        {
+          "type": "email",
+          "value": "karim.h@example.net",
+          "verified": true
+        },
+        {
+          "type": "phone",
+          "value": "+971500000102",
+          "verified": true
+        },
+        {
+          "type": "username",
+          "value": "kharbour",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "member_id": "fam-001-m3",
+      "role": "child",
+      "age_band": "5-12",
+      "names": {
+        "first": "Yasmin",
+        "last": "Haddad"
+      },
+      "consent": {
+        "status": "guardian_verified",
+        "guardian_id": "fam-001-m1"
+      },
+      "identifiers": []
+    },
+    {
+      "member_id": "fam-001-m4",
+      "role": "elder",
+      "age_band": "70+",
+      "names": {
+        "first": "Samir",
+        "last": "Haddad"
+      },
+      "consent": {
+        "status": "pending",
+        "note": "Invite sent, not yet accepted. MUST NOT be scanned."
+      },
+      "identifiers": [
+        {
+          "type": "email",
+          "value": "samir.haddad@example.org",
+          "verified": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "family_id": "fam-002",
+  "expected": [
+    {
+      "category": "CREDENTIAL_LEAK",
+      "member_id": "fam-002-m1",
+      "severity": "high",
+      "evidence": [
+        "BR-201",
+        "BR-202"
+      ]
+    },
+    {
+      "category": "CONTACT_EXPOSED",
+      "member_id": "fam-002-m1",
+      "severity": "medium",
+      "evidence": [
+        "PR-201",
+        "BK-201"
+      ]
+    },
+    {
+      "category": "HOME_LOCATION",
+      "member_id": "fam-002-m1",
+      "severity": "high",
+      "evidence": [
+        "BK-201"
+      ]
+    },
+    {
+      "category": "PERSONAL_DATA_LEAK",
+      "member_id": "fam-002-m2",
+      "severity": "medium",
+      "evidence": [
+        "BR-203"
+      ]
+    },
+    {
+      "category": "VOICE_CLONE_RISK",
+      "member_id": "fam-002-m2",
+      "severity": "medium",
+      "evidence": [
+        "PO-201"
+      ]
+    },
+    {
+      "category": "ACCOUNT_LINKAGE",
+      "member_id": "fam-002-m3",
+      "severity": "medium",
+      "evidence": [
+        "PR-203",
+        "PR-204"
+      ]
+    },
+    {
+      "category": "ROUTINE_PATTERN",
+      "member_id": "fam-002-m3",
+      "severity": "high",
+      "evidence": [
+        "PO-202",
+        "PO-203",
+        "PO-204"
+      ]
+    }
+  ],
+  "forbidden_members": [],
+  "forbidden_evidence": [
+    "BR-204",
+    "BK-202"
+  ]
+}

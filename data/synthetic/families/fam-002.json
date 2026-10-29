@@ -1,0 +1,83 @@
+{
+  "family_id": "fam-002",
+  "label": "The Mensah-Rao family (synthetic)",
+  "members": [
+    {
+      "member_id": "fam-002-m1",
+      "role": "guardian",
+      "age_band": "30-39",
+      "names": {
+        "first": "Priya",
+        "last": "Rao"
+      },
+      "consent": {
+        "status": "verified",
+        "method": "otp",
+        "verified_at": "2026-10-02T18:00:00+04:00"
+      },
+      "identifiers": [
+        {
+          "type": "email",
+          "value": "priya.rao@example.com",
+          "verified": true
+        },
+        {
+          "type": "phone",
+          "value": "+971500000201",
+          "verified": true
+        },
+        {
+          "type": "username",
+          "value": "priyamakes",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "member_id": "fam-002-m2",
+      "role": "adult",
+      "age_band": "30-39",
+      "names": {
+        "first": "Daniel",
+        "last": "Mensah"
+      },
+      "consent": {
+        "status": "verified",
+        "method": "otp",
+        "verified_at": "2026-10-02T18:10:00+04:00"
+      },
+      "identifiers": [
+        {
+          "type": "email",
+          "value": "d.mensah@example.net",
+          "verified": true
+        },
+        {
+          "type": "phone",
+          "value": "+971500000202",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "member_id": "fam-002-m3",
+      "role": "child",
+      "age_band": "13-17",
+      "names": {
+        "first": "Kofi",
+        "last": "Mensah"
+      },
+      "consent": {
+        "status": "guardian_verified",
+        "guardian_id": "fam-002-m1"
+      },
+      "identifiers": [
+        {
+          "type": "username",
+          "value": "k0fi_strikes",
+          "verified": true
+        }
+      ]
+    }
+  ]
+}
